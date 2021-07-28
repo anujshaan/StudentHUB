@@ -1,0 +1,23 @@
+
+.loginWrapper{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginContent{
+    flex:1;
+    margin: 1rem 0;
+}
+.loginWrapper .tagline{
+    font-family: 'Handlee', sans-serif;
+    color: #145609;
+    font-size: 3rem;
+    width: 70%;
+    letter-spacing: 3px;
+}
+.loginWrapper .loginImg{
+    width: 40rem;
+}

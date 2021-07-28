@@ -1,0 +1,45 @@
+.navbar{
+    width: 100%;
+    background-color: #C0BF9C;
+}
+.navbarWrapper{
+    width: 80%;
+    height: 94px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarLogo{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbarSvg{
+    width: 20px;
+    height: 20px;
+}
+.navbarLogo:hover{
+    color: rgb(252, 241, 241);
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+    margin-right: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar li:hover{
+    border-bottom: 0.5px solid#fff;
+}
+.navbar .login{
+    font-size: 28px;
+}
+.navbar .contact{
+    font-size: 30px;
+    font-weight: 600;
+}
